@@ -1,0 +1,13 @@
+void setup() { // Esta en una línea comentada.
+
+ // Establece un pin digital como salida.
+ // El Pin 13 tiene un LED conectado a el.
+pinMode(13, OUTPUT);
+}
+
+void loop() {
+digitalWrite(13, HIGH);   // enciende el LED
+delay(1000);              // espera un segundo
+digitalWrite(13, LOW);    // apaga el LED
+delay(1000);              // espera un segundo
+}
